@@ -19,7 +19,7 @@ class ProductDetail extends Component {
                 <div className="align-center">
                     <h2 className="text-center">PRODUCT DETAILS</h2>
                     <figure className="caption-right">
-                        <img src={"data:image/jpg;base64," + prod.image} width="400px" height="400px" alt="" />
+                        <img src={"data:image/jpg;base64," + prod.image} width="auto" height="200px" alt="" />
                         <figcaption>
                             <form>
                                 <table>
