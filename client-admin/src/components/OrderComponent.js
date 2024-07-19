@@ -1,5 +1,5 @@
 import axios from 'axios';
-//import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import MyContext from '../contexts/MyContext';
 

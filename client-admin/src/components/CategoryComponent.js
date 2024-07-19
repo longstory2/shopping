@@ -1,7 +1,7 @@
 import axios from 'axios';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
-//import { Button, Modal, ModalBody, ModalFooter, ModalHeader, Table } from 'reactstrap';
+import { Button, Modal, ModalBody, ModalFooter, ModalHeader, Table } from 'reactstrap';
 import { v4 as uuidv4 } from 'uuid'; // Import uuid
 import '../assets/SCSS//CategoryComponent.scss'; // Import SCSS for Category
 import MyContext from '../contexts/MyContext';
